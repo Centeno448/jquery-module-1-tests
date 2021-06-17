@@ -16,7 +16,7 @@ beforeAll(() => {
   require('./index');
 });
 
-it('index.js imprime a consola el valor del input al presionar el div id="Button" | Asegúrate de que al presionar el div id="Button" se imprima a consola el valor del input', () => {
+it('index.js cambia el valor del h2 al presionar el div id="Button" | Asegúrate de que al presionar el div id="Button" se cambie el valor del h2 a lo que colocaste en el input', () => {
   $('input[type="text"]').val('1');
 
   $('#button').click();
